@@ -1,0 +1,6 @@
+C:\Projects\JURIS\JURIS\JURIS.Database\bin\Debug\JURIS.Database.dacpac
+C:\Projects\JURIS\JURIS\JURIS.Database\bin\Debug\JURIS.Database.dll
+C:\Projects\JURIS\JURIS\JURIS.Database\bin\Debug\JURIS.Database.pdb
+C:\Projects\JURIS\JURIS\JURIS.Database\obj\Debug\JURIS.Database.sqlprojAssemblyReference.cache
+C:\Projects\JURIS\JURIS\JURIS.Database\obj\Debug\JURIS.Database.dll
+C:\Projects\JURIS\JURIS\JURIS.Database\obj\Debug\JURIS.Database.pdb

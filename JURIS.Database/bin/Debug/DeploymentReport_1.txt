@@ -1,0 +1,33 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Appointment] (Table)
+       [dbo].[Case] (Table)
+       [dbo].[CaseLog] (Table)
+       [dbo].[Chat] (Table)
+       [dbo].[LawyerProfile] (Table)
+       [dbo].[UserProfile] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Appointment] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Case] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Chat] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Chat] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[LawyerProfile] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[UserProfile] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[UserProfile] (Default Constraint)
+       [dbo].[FK_Appointment_Case] (Foreign Key)
+       [dbo].[FK_Cases_UserProfile] (Foreign Key)
+       [dbo].[FK_CaseLog_Case] (Foreign Key)
+       [dbo].[FK_CaseLog_Appointment] (Foreign Key)
+       [dbo].[FK_UserMessage_Receiver] (Foreign Key)
+       [dbo].[FK_UserMessage_Sender] (Foreign Key)
+
+** Supporting actions

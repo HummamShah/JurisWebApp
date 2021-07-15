@@ -1,0 +1,21 @@
+﻿CREATE TABLE [dbo].[Chat]
+(
+	[Id] INT NOT NULL PRIMARY KEY Identity(1,1),
+	[SenderUserId] NVARCHAR (128),
+	[Message] nvarchar(max),
+	[SenderName] nvarchar (max),
+	[SenderImageUrl] nvarchar(max),
+	[ReceipentImageUrl] nvarchar(max),
+	[Link] nvarchar(max),
+	[IsLink] bit not null default(0),
+	[ReceiverName] nvarchar (max),
+	[ReceipentUserId] NVARCHAR (128),
+	[IsRead] bit not null default(0),
+	[CreatedBy] nvarchar(max),
+	[CreatedAt] DateTime,
+	[UpdatedBy] nvarchar(max),
+	[UpdatedAt] DateTime,
+	[Date] Datetime,
+	Constraint [FK_UserMessage_Receiver] foreign key ([ReceipentUserId]) References [dbo].[AspNetUsers] ([Id]),
+	Constraint [FK_UserMessage_Sender] foreign key ([SenderUserId]) References [dbo].[AspNetUsers] ([Id]),
+)
